@@ -1,0 +1,13 @@
+{
+	"name": "wow-blog",
+	"version": "2.0.0",
+	"scripts": {
+		"makepot": "wp i18n make-pot . languages/wow-blog.pot --skip-js --exclude=node_modules,deploy",
+		"deploy": "npm-run-all makepot deploy:bundle",
+		"deploy:bundle": "node .bin/deploy.js"
+	},
+	"devDependencies": {
+		"archiver": "^8.0.0",
+		"npm-run-all": "^4.1.5"
+	}
+}

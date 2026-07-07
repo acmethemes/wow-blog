@@ -1,0 +1,78 @@
+a{
+    color:#4fbe6e;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+}
+
+.read-more-active-header-sidebar .logo-title-tagline-wrap {
+    position: static;
+    transform: translateY(0);
+}
+.read-more-main-header .read-more-header-sidebar .widget{
+    margin: 0;
+}
+.read-more-main-header .read-more-header-sidebar .container{
+    width: 100%;
+    padding: 0;
+}
+.left-logo-right-ads .read-more-main-header .read-more-header-sidebar{
+    margin-right: auto;
+}
+.left-logo-right-ads .read-more-main-header,
+.right-logo-left-ainfo .read-more-main-header{
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.left-logo-right-ads .read-more-main-header .logo-title-tagline-wrap{
+    text-align: right;
+}
+.right-logo-left-ainfo .read-more-main-header .logo-title-tagline-wrap{
+    text-align: left;
+}
+.right-logo-left-ainfo .read-more-main-header{
+    flex-direction: row-reverse;
+}
+.right-logo-left-ainfo .read-more-main-header .read-more-header-sidebar{
+    margin-left: auto;
+}
+.center-logo-below-ainfo .read-more-main-header .read-more-header-sidebar{
+    margin-bottom: 20px;
+}
+
+@media (max-width:1023px){
+    .left-logo-right-ads .read-more-main-header .read-more-header-sidebar,
+    .right-logo-left-ainfo .read-more-main-header .read-more-header-sidebar{
+        margin-bottom: 20px;
+    }
+    .left-logo-right-ads .read-more-main-header,
+    .right-logo-left-ainfo .read-more-main-header{
+        flex-direction: column;
+    }
+    .left-logo-right-ads .read-more-main-header .read-more-header-sidebar {
+        margin-right: 0;
+    }
+    .right-logo-left-ainfo .read-more-main-header .read-more-header-sidebar {
+        margin-left: 0;
+    }
+
+}
+
+/*.entry-meta-after-title*/
+.single .entry-meta-after-title{
+    margin-top: 10px;
+}
+.single .entry-meta-after-title span{
+    display: inline-block;
+}
+.single .entry-meta-after-title span:not(:last-child){
+    margin-left: 8px;
+}

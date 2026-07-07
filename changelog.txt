@@ -1,0 +1,32 @@
+== Change log ==
+
+= 2.0.0 - Jun 26 2026 =
+* Updated: WordPress 7.0 compatibility
+* Updated: Requires PHP 7.4
+* Updated: Tested up to WordPress 7.0
+
+= 1.0.6 - Apr 20 2025 =
+* Added: Tested with the latest WordPress.
+* Added: Static caching mechanism for theme options to improve performance.
+* Fixed: Resolved issue with translation function preload
+
+= 1.0.5 - Jan 22 2025 =
+* Added: Enhanced support for the latest WordPress version.
+* Updated: Improved CSS compatibility.
+
+= 1.0.4 - August 01 2023 =
+* Added: Recommended Classic Widgets plugin
+* Updated: WordPress latest compatibility
+
+= 1.0.3 - Feb 16 2022 =
+* Updated: WordPress latest compatibility
+
+= 1.0.2 - June 25 2021 =
+* Updated   :  Test to recent WordPress version
+* Updated   :  RTL CSS
+
+= 1.0.1 - Jan 09 2021 =
+* Updates   : Minor changes
+
+= 1.0.0 =
+* Initial release
