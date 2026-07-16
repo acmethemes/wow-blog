@@ -26,6 +26,7 @@ const PRODUCTION_FILES = [
 	"languages",
 	"page.php",
 	"readme.txt",
+	"changelog.txt",
 	"search.php",
 	"searchform.php",
 	"sidebar.php",
